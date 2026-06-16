@@ -92,7 +92,7 @@ print_header "SYSTEM SUMMARY"
 print_subheader "Identity"
 
 # Try to gather generic system info
-HOSTNAME=$(hostname)
+HOSTNAME=$(hostname 2>/dev/null 2>/dev/null || cat /etc/hostname)
 CURRENT_USER=$(whoami)
 # Determine OS Name and Version
 if [ -f /etc/os-release ]; then
