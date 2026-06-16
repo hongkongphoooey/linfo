@@ -23,7 +23,16 @@ This Bash script provides a rapid snapshot of a Linux machine's health and confi
 The program can be run in one of two ways: locally or over the internet.
 
 ### Local usage
-Download linfo.sh and run, preferably with sudo.
+Download [linfo.sh](https://raw.githubusercontent.com/hongkongphoooey/linfo/refs/heads/master/linfo.sh) and run, preferably with sudo.
+
+### From the web
+Run 
+
+`curl -fsSL https://spoo.me/linfo | (sudo) bash`
+
+or
+
+`curl -fsSL https://raw.githubusercontent.com/hongkongphoooey/linfo/refs/heads/master/linfo.sh | (sudo) bash`
 
 ## License
 MIT
