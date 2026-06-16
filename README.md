@@ -2,7 +2,7 @@
 
 This Bash script provides a rapid snapshot of a Linux machine's health and configuration. It generates a two-part report: a System Summary for general info, and Admin Diagnostics (if run with root privileges) for deep-dive troubleshooting.
 
-![winfo in use on Windows 11](https://raw.githubusercontent.com/hongkongphoooey/linfo/refs/heads/master/screenshot.png)
+![winfo in use on Arch Linux install media](https://raw.githubusercontent.com/hongkongphoooey/linfo/refs/heads/master/screenshot.png)
 
 ## Key Features
 * Identity & Health: OS distro name, version, uptime, pending reboots, and live CPU/Memory usage.
